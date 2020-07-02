@@ -1,6 +1,8 @@
+load('.workflow-version')
+
 Pod::Spec.new do |s|
   s.name         = 'Workflow'
-  s.version      = '0.29.0'
+  s.version      = $workflow_version
   s.summary      = 'Reactive application architecture'
   s.homepage     = 'https://www.github.com/square/workflow-swift'
   s.license      = 'Apache License, Version 2.0'
